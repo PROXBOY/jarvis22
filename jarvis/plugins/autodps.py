@@ -7,7 +7,7 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 COLLECTION_STRING = [
     "avengers-logo-wallpaper",
@@ -62,7 +62,7 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 COLLECTION_STRINGZ = [
     "star-wars-wallpaper-1080p",
@@ -117,7 +117,7 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 COLLECTION_STRINGZS = ["hacker-background"]
 
@@ -164,7 +164,7 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 # Space lovers
 COLLECTION_STRINGSZ = [

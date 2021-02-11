@@ -18,7 +18,7 @@ from jarvis.plugins.sql_helper.filter_sql import (
     remove_all_filters,
     remove_filter,
 )
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 DELETE_TIMEOUT = 0
 TYPE_TEXT = 0

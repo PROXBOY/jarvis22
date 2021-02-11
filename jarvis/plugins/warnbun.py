@@ -1,7 +1,7 @@
 """.admin Plugin for Jarvis"""
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd("warn1"))
@@ -26,7 +26,7 @@ async def _(event):
 """.admin Plugin for jarvis"""
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd("warn2"))
@@ -51,7 +51,7 @@ async def _(event):
 """.admin Plugin for @UniBorg"""
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd("warn3"))
@@ -74,7 +74,7 @@ async def _(event):
 """.admin Plugin for jarvis"""
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd("warn0"))

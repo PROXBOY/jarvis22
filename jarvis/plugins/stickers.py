@@ -17,7 +17,7 @@ from telethon.tl.types import (
 )
 
 from jarvis import CMD_HELP
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 KANGING_STR = [
     "Using Witchery to kang this sticker...",

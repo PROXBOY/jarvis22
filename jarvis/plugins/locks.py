@@ -3,7 +3,7 @@ from telethon.tl.types import ChatBannedRights
 
 from jarvis import ALIVE_NAME, CMD_HELP
 from jarvis.events import errors_handler
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 DEFAULTUSER = (
     str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"

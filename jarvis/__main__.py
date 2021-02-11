@@ -6,7 +6,7 @@ import telethon.utils
 from telethon import TelegramClient
 
 from jarvis import jarvisub
-from jarvis.utils import load_module, start_assistant
+#from jarvis.utils import *load_module, start_assistant
 from var import Var
 
 LOAD_USERBOT = os.environ.get("LOAD_USERBOT", True)

@@ -9,7 +9,7 @@ from datetime import datetime
 import qrcode
 from bs4 import BeautifulSoup
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 def progress(current, total):

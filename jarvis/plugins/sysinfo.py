@@ -13,7 +13,7 @@ import psutil
 from telethon import __version__
 
 from jarvis import ALIVE_NAME, CMD_HELP
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 try:
     pass

@@ -8,7 +8,7 @@ from jarvis.plugins.sql_helper.welcome_sql import (
     rm_welcome_setting,
     update_previous_welcome,
 )
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(events.ChatAction())  # pylint:disable=E0602

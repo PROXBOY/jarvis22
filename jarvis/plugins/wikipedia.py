@@ -1,6 +1,6 @@
 import wikipedia
 
-from jarvis.utils import j_cmd, sudo_cmd
+#from jarvis.utils import *j_cmd, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="wikipedia (.*)"))

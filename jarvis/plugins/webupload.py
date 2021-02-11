@@ -2,7 +2,7 @@
 import asyncio
 import time
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(

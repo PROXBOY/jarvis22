@@ -14,7 +14,7 @@ from pySmartDL import SmartDL
 from telethon.tl.types import DocumentAttributeVideo
 
 from jarvis import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
-from jarvis.utils import j_cmd, edit_or_reply, eor, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, eor, sudo_cmd
 
 
 async def progress(current, total, event, start, type_of_ps, file_name=None):

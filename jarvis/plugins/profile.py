@@ -6,7 +6,7 @@ import os
 
 from telethon.tl import functions
 
-from jarvis.utils import j_cmd, eor, sudo_cmd
+#from jarvis.utils import *j_cmd, eor, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="pbio (.*)", outgoing=True))
@@ -86,7 +86,7 @@ async def _(event):
 from telethon.tl.functions.photos import DeletePhotosRequest, GetUserPhotosRequest
 from telethon.tl.types import InputPhoto
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="delpfp ?(.*)", outgoing=True))

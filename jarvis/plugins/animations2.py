@@ -1,4 +1,4 @@
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"hhi ?(.*)", outgoing=True))
@@ -19,7 +19,7 @@ async def hhi(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern="dump ?(.*)"))
@@ -63,7 +63,7 @@ async def _(message):
 
 import random
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"jainder(.*)", outgoing=True))
@@ -169,7 +169,7 @@ async def _(event):
 import asyncio
 import random
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"lol", outgoing=True))
@@ -245,7 +245,7 @@ async def _(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd("ok"))
@@ -312,7 +312,7 @@ async def _(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"quickheal"))
@@ -364,7 +364,7 @@ Syntax: .rdl
 import asyncio
 import random
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"rdl", outgoing=True))
@@ -579,7 +579,7 @@ async def _(event):
 
 import random
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="coin ?(.*)"))
@@ -617,7 +617,7 @@ async def _(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"fleave"))
@@ -664,7 +664,7 @@ async def _(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern="cry"))
@@ -728,7 +728,7 @@ async def _(event):
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd("scan ?(.*)"))
@@ -775,7 +775,7 @@ async def _(event):
 """COMMAND : .join , .pay , .work , .push , .aag , .climb"""
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern="join"))
@@ -882,7 +882,7 @@ async def _(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern="watt"))
@@ -908,7 +908,7 @@ async def _(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd("think"))
@@ -985,7 +985,7 @@ async def _(event):
 import asyncio
 
 from jarvis import ALIVE_NAME
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Jarvis Userbot"
 
@@ -1028,7 +1028,7 @@ async def _(event):
 import asyncio
 import random
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern=f"tip", outgoing=True))
@@ -1564,7 +1564,7 @@ from collections import deque
 from telethon.tl.functions.channels import LeaveChannelRequest
 
 from jarvis import CMD_HELP
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd("leave"))
@@ -1659,7 +1659,7 @@ async def _(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"macos"))
@@ -1828,7 +1828,7 @@ async def _(event):
         await event.edit(animation_chars[i % 7])
 
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"shout"))
@@ -1853,7 +1853,7 @@ async def shout(args):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"hypno"))
@@ -1902,7 +1902,7 @@ async def _(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd("moody"))
@@ -1937,7 +1937,7 @@ import random
 
 import requests
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern="quote ?(.*)"))
@@ -1968,7 +1968,7 @@ async def quote_search(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"smoon"))
@@ -2059,7 +2059,7 @@ async def _(event):
 
 import random
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"react (.*)", outgoing=True))
@@ -2167,7 +2167,7 @@ async def _(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern="lucky"))
@@ -2205,7 +2205,7 @@ async def _(event):
 
 import asyncio
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"(.*)", outgoing=True))

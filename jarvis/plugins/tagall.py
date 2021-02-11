@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern=r"tagall", outgoing=True))

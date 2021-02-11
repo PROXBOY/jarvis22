@@ -11,7 +11,7 @@ import re
 from telethon import events
 
 import jarvis.plugins.sql_helper.blacklist_sql as sql
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(events.NewMessage(incoming=True))

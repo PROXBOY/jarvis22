@@ -3,7 +3,7 @@ from geopy.geocoders import Nominatim
 from telethon.tl import types
 
 from jarvis import CMD_HELP
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="gps ?(.*)", outgoing=True))

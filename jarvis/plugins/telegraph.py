@@ -5,7 +5,7 @@ from PIL import Image
 from telegraph import Telegraph, exceptions, upload_file
 
 from jarvis import BOTLOG, BOTLOG_CHATID, CMD_HELP
-from jarvis.utils import j_cmd, eor, sudo_cmd
+#from jarvis.utils import *j_cmd, eor, sudo_cmd
 
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=Config.TELEGRAPH_SHORT_NAME)

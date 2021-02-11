@@ -8,7 +8,7 @@ import time
 
 from telethon.tl.functions.channels import LeaveChannelRequest
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd("bye", outgoing=True))

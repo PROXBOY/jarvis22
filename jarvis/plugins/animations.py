@@ -6,7 +6,7 @@ import random
 from collections import deque
 
 from jarvis import ALIVE_NAME
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 

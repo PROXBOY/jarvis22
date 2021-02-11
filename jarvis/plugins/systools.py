@@ -5,7 +5,7 @@ import os
 import sys
 
 from jarvis import CMD_HNDLR, SUDO_HNDLR
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="restart", outgoing=True))

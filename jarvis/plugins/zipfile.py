@@ -3,7 +3,7 @@ import os
 import time
 import zipfile
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd(pattern="compress ?(.*)"))

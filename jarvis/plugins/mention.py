@@ -1,7 +1,7 @@
 # For Unibot
 # (c) @INF1N17Y
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd("mention (.*)"))

@@ -3,7 +3,7 @@
 # Ported To JARVIS By Spidy
 # Syntax (.hl <link>)
 
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="hl ?(.*)", outgoing=True))

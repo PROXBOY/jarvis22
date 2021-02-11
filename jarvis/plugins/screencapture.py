@@ -5,7 +5,7 @@ import io
 
 import requests
 
-from jarvis.utils import j_cmd, eor, sudo_cmd
+#from jarvis.utils import *j_cmd, eor, sudo_cmd
 
 
 @jarvis.on(j_cmd("screencapture (.*)", outgoing=True))

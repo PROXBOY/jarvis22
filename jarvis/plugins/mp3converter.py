@@ -6,7 +6,7 @@ import os
 import time
 from datetime import datetime
 
-from jarvis.utils import j_cmd, edit_or_reply, progress, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, progress, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="convert (.*)", outgoing=True))  # pylint:disable=E0602

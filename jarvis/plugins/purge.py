@@ -10,7 +10,7 @@ from asyncio import sleep
 from telethon.errors import rpcbaseerrors
 
 from jarvis import BOTLOG, BOTLOG_CHATID, CMD_HELP
-from jarvis.utils import j_cmd, errors_handler
+#from jarvis.utils import *j_cmd, errors_handler
 
 
 # @register(outgoing=True, pattern="^.purge$")

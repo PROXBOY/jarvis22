@@ -1,6 +1,6 @@
 import pyfiglet
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 # @command(pattern="^.figlet ?(.*)", outgoing=True)

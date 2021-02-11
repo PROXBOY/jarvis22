@@ -11,7 +11,7 @@ from telethon.tl.types import (
 )
 from telethon.utils import pack_bot_file_id
 
-from jarvis.utils import j_cmd, edit_or_reply, eor, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, eor, sudo_cmd
 
 
 @jarvis.on(j_cmd(outgoing=True, pattern="random"))

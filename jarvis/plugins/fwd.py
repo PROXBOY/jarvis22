@@ -1,7 +1,7 @@
 """Enable Seen Counter in any message, Fix by @pureindialover
 to know how many users have seen your message
 Syntax: .fwd as reply to any message"""
-from jarvis.utils import j_cmd, edit_or_reply, sudo_cmd
+#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="frwd", outgoing=True))

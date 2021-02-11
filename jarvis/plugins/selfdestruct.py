@@ -7,7 +7,7 @@
 
 import time
 
-from jarvis.utils import j_cmd
+#from jarvis.utils import *j_cmd
 
 
 @jarvis.on(j_cmd("sd", outgoing=True))
