@@ -87,27 +87,23 @@ async def jarvis(alive):
         pm_caption += f"  🔸 ➣**Pм Lσgѕ**        `{pmllogs}` \n"
         pm_caption += f"  🔸 ➣**Hєяσкυ**          `{updaterr}` \n"
         pm_caption += f"  🔸 ➣**UρTιмє**           `{uptime}`\n\n"
-        pm_caption += "[☆ Git Repo ☆](https://jarvisworks.ga/userbot)"
+        pm_caption += "[☆ Git Repo ☆](https://jarvisworks.gq)"
         await alive.get_chat()
-        await jarvis.send_file(
-            alive.chat_id, ALIVE_PIC, caption=pm_caption, linkpreview=False
-        )
+        await jarvisub.send_file(alive.chat_id, ALIVE_PIC, caption=pm_caption, linkpreview=False)
         await alive.delete()
     else:
         PM_IMG = "https://telegra.ph/file/d61452c69b961e794eedd.jpg"
         pm_captionn = "**Master JARVIS AT YOU SERVICE 🤗 **\n"
-        pm_captionn += f"**••Mу Bσѕѕ••**           {DEFAULTUSER}\n"
+        pm_captionn += f" ** Mу Bσѕѕ               {DEFAULTUSER}\n"
         pm_captionn += " **✓ JARVIS STATS ✓** \n"
-        pm_captionn += "  🔸 ➣**Pутнση Vєяѕιση**    `3.8.5`\n"
+        pm_captionn += "  🔸 ➣**Pутнση Vєяѕιση**    `3.9.1`\n"
         pm_captionn += f"  🔸 ➣**Bσт Vєяѕιση**        `{currentversion}` \n"
         pm_captionn += f"  🔸 ➣**Dαтαвαѕє**    `{dbstats}` \n"
         pm_captionn += f"  🔸 ➣**Sυ∂σ**               `{ssudo}` \n"
         pm_captionn += f"  🔸 ➣**Pм Lσgѕ**        `{pmllogs}` \n"
         pm_captionn += f"  🔸 ➣**Hєяσкυ**          `{updaterr}` \n"
         pm_captionn += f"  🔸 ➣**UρTιмє**           `{uptime}`\n\n"
-        pm_captionn += "[☆ Git Repo ☆](https://jarvisworks.ga/userbot)"
+        pm_captionn += "[☆ Git Repo ☆](https://jarvisworks.gq)"
         await alive.get_chat()
-        await jarvis.send_file(
-            alive.chat_id, PM_IMG, caption=pm_captionn, linkpreview=False
-        )
+        await jarvisub.send_file(alive.chat_id, PM_IMG, caption=pm_captionn, linkpreview=False)
         await alive.delete()
