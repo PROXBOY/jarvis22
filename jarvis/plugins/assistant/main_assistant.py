@@ -138,15 +138,30 @@ async def all_messages_catcher(event):
 @tgbot.on(events.NewMessage(func=lambda e: e.is_private))
 async def sed(event):
     msg = await event.get_reply_message()
-    
+    if msg is None:
+        return
+    msg.id
     msg_s = event.raw_text
-    user_id, reply_message_id = his_userid(msg.from.id)
-    if event.sender_id == jarvisub.uid:
-        if event.raw_text.startswith("/"):
-            pass
-        else:
-            await tgbot.send_message(user_id, msg_s)
-
+    user_id, reply_message_id = his_userid(msg.id)
+    if event.sender_id != jarvisub.uid:
+        return
+    elif event.raw_text.startswith("/"):
+        return
+    elif event.text is not None and event.media:
+        bot_api_file_id = pack_bot_file_id(event.media)
+        await tgbot.send_file(
+            user_id,
+            file=bot_api_file_id,
+            caption=event.text,
+            reply_to=reply_message_id,
+        )
+    else:
+        msg_s = event.raw_text
+        await tgbot.send_message(
+            user_id,
+            msg_s,
+            reply_to=reply_message_id,
+        )
 
 @assistant_cmd("broadcast", is_args='heck')
 @god_only
