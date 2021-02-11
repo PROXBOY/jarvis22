@@ -25,9 +25,7 @@ if Var.STRING_SESSION:
     session_name = str(Var.STRING_SESSION)
     jarvisub = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)
 else:
-    session_name = "startup"
-    jarvisub = TelegramClient(session_name, Var.APP_ID, Var.API_HASH)
-
+    jarvisub - = TelegramClient("TG_BOT_TOKEN", api_id=Var.APP_ID, api_hash=Var.API_HASH).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
 
 CMD_LIST = {}
 # for later purposes
