@@ -77,7 +77,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             else:
                 reply_pop_up_alert = help_string
             reply_pop_up_alert += "\n Use .unload {} to remove this plugin\n\
-                Â© JARVIS Userbot".format(
+                © JARVIS Userbot".format(
                 plugin_name
             )
             try:
@@ -128,11 +128,11 @@ def paginate_help(page_number, loaded_plugins, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "â«", data="{}_prev({})".format(prefix, modulo_page)
+                    "⌫", data="{}_prev({})".format(prefix, modulo_page)
                 ),
-                custom.Button.inline("â", data="close"),
+                custom.Button.inline("☐", data="close"),
                 custom.Button.inline(
-                    "â¦", data="{}_next({})".format(prefix, modulo_page)
+                    "⌦", data="{}_next({})".format(prefix, modulo_page)
                 ),
             )
         ]
