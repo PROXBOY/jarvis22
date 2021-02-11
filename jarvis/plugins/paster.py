@@ -6,7 +6,7 @@ import os
 import requests
 
 from jarvis import CMD_HELP
-#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, sudo_cmd
 
 logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s", level=logging.WARNING

@@ -16,7 +16,7 @@ from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import DocumentAttributeFilename
 
 from jarvis import TEMP_DOWNLOAD_DIRECTORY
-#from jarvis.utils import *j_cmd, eor, sudo_cmd
+##from jarvis.utils import **j_cmd, eor, sudo_cmd
 
 THUMB_IMAGE_PATH = "./jarvis.png"
 

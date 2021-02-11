@@ -25,7 +25,7 @@ from telethon.tl.types import (
 
 from jarvis import BOTLOG, BOTLOG_CHATID, CMD_HELP, LOGS
 from jarvis.plugins.sql_helper.mute_sql import is_muted, mute, unmute
-#from jarvis.utils import *j_cmd, edit_or_reply, errors_handler, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, errors_handler, sudo_cmd
 
 # =================== CONSTANT ===================
 

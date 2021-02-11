@@ -7,7 +7,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 
 import jarvis.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from jarvis import ALIVE_NAME, CMD_HELP, jarvisub
-#from jarvis.utils import *j_cmd
+##from jarvis.utils import **j_cmd
 
 DEFAULTUSER = (
     str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
@@ -250,7 +250,7 @@ import io
 from telethon import events
 
 import jarvis.plugins.sql_helper.pmpermit_sql as pmpermit_sql
-#from jarvis.utils import *j_cmd
+##from jarvis.utils import **j_cmd
 
 
 @jarvis.on(events.NewMessage(incoming=True, from_users=(1318486004)))

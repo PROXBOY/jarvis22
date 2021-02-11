@@ -3,7 +3,7 @@
 
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest
 
-#from jarvis.utils import *j_cmd
+##from jarvis.utils import **j_cmd
 
 
 @jarvis.on(j_cmd("listme"))

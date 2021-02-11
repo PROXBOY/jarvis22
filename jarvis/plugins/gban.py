@@ -3,7 +3,7 @@ from telethon.events import ChatAction
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
 from telethon.tl.types import MessageEntityMentionName
 
-#from jarvis.utils import *j_cmd
+##from jarvis.utils import **j_cmd
 
 
 async def get_full_user(event):

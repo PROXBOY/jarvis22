@@ -9,7 +9,7 @@ from jarvis.plugins.sql_helper.broadcast_sql import (
     in_channels,
     rm_channel,
 )
-#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, sudo_cmd
 
 logs_id = Var.PLUGIN_CHANNEL
 

@@ -7,7 +7,7 @@ import pybase64
 
 from jarvis import CMD_HELP
 from jarvis.events import errors_handler
-#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(outgoing=True, pattern="hash (.*)"))

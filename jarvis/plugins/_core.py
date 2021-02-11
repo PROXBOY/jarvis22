@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 
 from jarvis import ALIVE_NAME
-#from jarvis.utils import *j_cmd, eor, load_module, remove_plugin, sudo_cmd
+##from jarvis.utils import **j_cmd, eor, load_module, remove_plugin, sudo_cmd
 
 DELETE_TIMEOUT = 5
 thumb_image_path = "./resource/20201012_204728.png"

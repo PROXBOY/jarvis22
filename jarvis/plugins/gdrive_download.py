@@ -6,7 +6,7 @@ By: @Zero_cool7870
 """
 import requests
 
-#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, sudo_cmd
 
 
 async def download_file_from_google_drive(id):

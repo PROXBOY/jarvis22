@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 from jarvis import ALIVE_NAME, Lastupdate
-#from jarvis.utils import *j_cmd, sudo_cmd
+##from jarvis.utils import **j_cmd, sudo_cmd
 
 sudousing = Config.SUDO_USERS
 pmlogss = Config.PM_LOGGR_BOT_API_ID

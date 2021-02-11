@@ -24,7 +24,7 @@ import requests
 import telethon
 from PIL import Image
 
-#from jarvis.utils import *j_cmd
+##from jarvis.utils import **j_cmd
 
 logger = logging.getLogger(__name__)
 

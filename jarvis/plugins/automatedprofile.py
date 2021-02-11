@@ -4,7 +4,7 @@ import time
 from telethon.errors import FloodWaitError
 from telethon.tl import functions
 
-#from jarvis.utils import *j_cmd, eor, sudo_cmd
+##from jarvis.utils import **j_cmd, eor, sudo_cmd
 
 DEL_TIME_OUT = 60
 
@@ -49,7 +49,7 @@ from PIL import Image, ImageDraw, ImageFont
 from pySmartDL import SmartDL
 from telethon.tl import functions
 
-#from jarvis.utils import *j_cmd, sudo_cmd
+##from jarvis.utils import **j_cmd, sudo_cmd
 
 FONT_FILE_TO_USE = "fonts/digital.ttf"
 
@@ -98,7 +98,7 @@ from telethon.errors import FloodWaitError
 from telethon.tl import functions
 import logging
 from jarvis import ALIVE_NAME
-#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, sudo_cmd
 
 DEL_TIME_OUT = 60
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"

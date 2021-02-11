@@ -7,7 +7,7 @@ from datetime import datetime
 
 from selenium import webdriver
 
-#from jarvis.utils import *j_cmd, eor, sudo_cmd
+##from jarvis.utils import **j_cmd, eor, sudo_cmd
 
 
 @jarvis.on(j_cmd("screenlong (.*)", outgoing=True))

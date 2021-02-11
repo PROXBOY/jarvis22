@@ -6,7 +6,7 @@ import re
 
 from telethon import Button
 
-#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, sudo_cmd
 
 from .. import CMD_HELP
 

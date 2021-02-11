@@ -11,7 +11,7 @@ import time
 from os.path import exists, isdir
 
 from jarvis import CMD_HELP
-#from jarvis.utils import *j_cmd, eor, humanbytes, sudo_cmd
+##from jarvis.utils import **j_cmd, eor, humanbytes, sudo_cmd
 
 MAX_MESSAGE_SIZE_LIMIT = 4095
 

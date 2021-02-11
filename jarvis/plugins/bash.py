@@ -2,7 +2,7 @@ import asyncio
 import io
 import time
 
-#from jarvis.utils import *j_cmd, edit_or_reply
+##from jarvis.utils import **j_cmd, edit_or_reply
 
 
 @jarvis.on(j_cmd(pattern="bash (.*)", outgoing=True))

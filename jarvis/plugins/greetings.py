@@ -1,4 +1,4 @@
-#from jarvis.utils import *j_cmd, sudo_cmd
+##from jarvis.utils import **j_cmd, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="gnt", outgoing=True))

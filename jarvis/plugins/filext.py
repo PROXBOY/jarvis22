@@ -3,7 +3,7 @@ Syntax: .filext EXTENSION"""
 import requests
 from bs4 import BeautifulSoup
 
-#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="filext (.*)", outgoing=True))

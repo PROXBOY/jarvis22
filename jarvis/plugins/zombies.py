@@ -9,7 +9,7 @@ from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 
 from jarvis import CMD_HNDLR
-#from jarvis.utils import *j_cmd, eor, sudo_cmd
+##from jarvis.utils import **j_cmd, eor, sudo_cmd
 
 # =================== CONSTANT ===================
 

@@ -5,7 +5,7 @@
 
 import logging
 
-#from jarvis.utils import *j_cmd, eor, sudo_cmd
+##from jarvis.utils import **j_cmd, eor, sudo_cmd
 
 logger = logging.getLogger(__name__)
 

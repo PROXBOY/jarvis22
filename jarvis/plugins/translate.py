@@ -6,7 +6,7 @@ Available Commands:
 import emoji
 from googletrans import Translator
 
-#from jarvis.utils import *j_cmd, eor, sudo_cmd
+##from jarvis.utils import **j_cmd, eor, sudo_cmd
 
 
 @jarvis.on(j_cmd("tr ?(.*)"))

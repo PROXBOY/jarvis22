@@ -1,7 +1,7 @@
 """.admin Plugin for @UniBorg"""
 from telethon.tl.types import ChannelParticipantsAdmins
 
-#from jarvis.utils import *j_cmd, sudo_cmd
+##from jarvis.utils import **j_cmd, sudo_cmd
 
 
 @jarvis.on(j_cmd(pattern="admins"))

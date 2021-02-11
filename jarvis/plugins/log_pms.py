@@ -13,7 +13,7 @@ from telethon import events
 
 from jarvis import CMD_HELP
 from jarvis.jconfig import Config
-#from jarvis.utils import *j_cmd
+##from jarvis.utils import **j_cmd
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.WARN

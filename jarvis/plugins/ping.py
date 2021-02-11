@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from jarvis import CMD_HELP, Lastupdate, time
-#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, sudo_cmd
 
 
 def get_readable_time(seconds: int) -> str:

@@ -9,7 +9,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 
 from jarvis import ALIVE_NAME, CMD_HELP
-#from jarvis.utils import *j_cmd
+##from jarvis.utils import **j_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Jarvis"
 DEFAULTUSERBIO = "404: No bio found!˙"

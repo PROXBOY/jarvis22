@@ -10,7 +10,7 @@ from datetime import datetime
 from gtts import gTTS
 
 from jarvis import CMD_HELP
-#from jarvis.utils import *j_cmd
+##from jarvis.utils import **j_cmd
 
 
 @jarvis.on(j_cmd(pattern="voice (.*)"))

@@ -11,7 +11,7 @@ from pytz import timezone as tz
 from jarvis import CMD_HELP
 from jarvis import OPEN_WEATHER_MAP_APPID as OWM_API
 from jarvis.events import errors_handler
-#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, sudo_cmd
 
 # ===== CONSTANT =====
 DEFCITY = "Delhi"

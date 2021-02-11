@@ -9,7 +9,7 @@ import re
 from search_engine_parser import GoogleSearch
 
 from jarvis import BOTLOG_CHATID
-#from jarvis.utils import *j_cmd, edit_or_reply, sudo_cmd
+##from jarvis.utils import **j_cmd, edit_or_reply, sudo_cmd
 
 
 def progress(current, total):

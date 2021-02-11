@@ -4,7 +4,7 @@ By :- @PhycoNinja13b
 Modified by :- @kirito6969
 .weeb <text> """
 
-#from jarvis.utils import *j_cmd
+##from jarvis.utils import **j_cmd
 
 normiefont = [
     "a",
