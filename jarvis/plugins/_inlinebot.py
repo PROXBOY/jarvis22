@@ -11,7 +11,7 @@ from jarvis.plugins import inlinestats
 NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD = os.environ.get("NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD", None)
 EMOJI_TO_DISPLAY_IN_HELP = os.environ.get("EMOJI_TO_DISPLAY_IN_HELP", None)
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Jarvis"
-
+thumbn="./resource/20201012_204728.png"
 if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     @jarvisbot.on(events.InlineQuery)  # pylint:disable=E0602
     async def inline_handler(event):
@@ -22,10 +22,11 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             rev_text = query[::-1]
             buttons = paginate_help(0, CMD_LIST, "helpme")
             result = builder.article(
-                "Â©JARVIS Userbot Help",
+                "©JARVIS Userbot Help",
                 text="{}\nCurrently Loaded Plugins: {}".format(query, len(CMD_LIST)),
                 buttons=buttons,
-                link_preview=False,
+                link_preview=False
+                thumb=thumbn,
             )
         await event.answer([result] if result else None)
 
