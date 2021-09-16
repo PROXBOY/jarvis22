@@ -48,7 +48,7 @@
 
 ### The Easy Way
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jarvis-Works/jarvisuserbot/)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/angad005/jarvis22/)
 
 ##  GET STRING SESSION FROM REPL RUN
 
