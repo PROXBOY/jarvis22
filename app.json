@@ -52,6 +52,7 @@
     "NOSPAM_TOKEN": {
       "description": "Get Your NoSpam+ Token From @NoSpamPlusBot",
       "value": ""
+      "required": false
     },
     "ALIVE_PIC": {
       "description": "Put here any Telegraph Media link for custom alive pic.",
